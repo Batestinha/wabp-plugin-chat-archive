@@ -1,4 +1,4 @@
 {
   "official.chat-archive.title": "Chat Archive",
-  "official.chat-archive.description": "Gere o acesso ao arquivo online deste âmbito."
+  "official.chat-archive.description": "Gere o acesso ao histórico de conversas no site em cada âmbito. Os administradores escolhem se o /chatarchive apresenta uma ligação para a conversa selecionada e se os membros recebem um aviso em privado."
 }

@@ -1,6 +1,6 @@
 # Chat Archive
 
-Control access to the website archive for this scope. Enable Integration Manager and Chat Archive in the managed scope.
+Controls website access to retained chats in each scope. Administrators choose whether /chatarchive offers a link to the selected chat and whether members receive a private website notice. Enable Integration Manager and Chat Archive in the managed scope.
 
 WABP captures, searches and exports conversations. This plugin supplies the per-scope website policy to WABP through Integration Manager. The private `/chatarchive` menu can offer a link to the selected chat, and the website verifies access when opened. Archive Courier uses the same export service to deliver files.
 
