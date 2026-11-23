@@ -73,7 +73,7 @@
         "path": "browserLinks",
         "id": "plugin.official.chat-archive.browserLinks",
         "label": "Browser links",
-        "description": "Include browser links in archive exports.",
+        "description": "Offer eligible chats on the web in /chatarchive and include links in archive exports.",
         "section": "Chat Archive",
         "order": 20,
         "schema": {
@@ -81,7 +81,7 @@
         },
         "ui": {
           "widget": "toggle",
-          "helpText": "Include browser links in archive exports."
+          "helpText": "Offer eligible chats on the web in /chatarchive and include links in archive exports."
         },
         "dangerous": false,
         "sensitivity": {
