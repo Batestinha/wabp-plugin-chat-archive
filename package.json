@@ -1,7 +1,7 @@
 {
   "name": "@wabs/plugin-chat-archive",
-  "version": "1.0.1",
-  "description": "Control access to the website archive for this scope.",
+  "version": "1.0.2",
+  "description": "Controls website access to retained chats in each scope. Administrators choose whether /chatarchive offers a link to the selected chat and whether members receive a private website notice.",
   "license": "MIT",
   "private": true,
   "type": "commonjs",

@@ -1,4 +1,4 @@
 {
   "official.chat-archive.title": "Chat Archive",
-  "official.chat-archive.description": "Control access to the website archive for this scope."
+  "official.chat-archive.description": "Controls website access to retained chats in each scope. Administrators choose whether /chatarchive offers a link to the selected chat and whether members receive a private website notice."
 }
