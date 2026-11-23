@@ -6,7 +6,7 @@ export const configSchema = z.object({
   externalAccess: z.boolean().default(true),
   browserLinks: z.boolean().default(true),
   websiteNotices: z.boolean().default(true),
-  noticeTemplate: z.string().max(2000).default('')
+  noticeTemplate: z.string().max(4000).default('')
 });
 export const manifest: PluginManifest = {
   ...metadata, configSchema, defaultMessages: require('../locales/en/official.chat-archive.json')
