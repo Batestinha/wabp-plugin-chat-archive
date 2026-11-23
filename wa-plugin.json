@@ -8,7 +8,7 @@
   },
   "description": "Control access to the website archive for this scope.",
   "kind": "managed_group",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "coreApiRange": "^0.3.28",
   "entrypoint": "dist/index.js",
   "messageNamespace": "official.chat-archive",
@@ -117,17 +117,55 @@
         "path": "noticeTemplate",
         "id": "plugin.official.chat-archive.noticeTemplate",
         "label": "Website notice text",
-        "description": "Optional notice text. Use {archiveUrl} for the website address.",
+        "description": "Private website notice for this scope. Leave empty to inherit the saved scope or account text.",
         "section": "Chat Archive",
         "order": 40,
         "schema": {
           "type": "string",
-          "max": 2000
+          "max": 4000
         },
         "ui": {
           "widget": "text",
           "multiline": true,
-          "helpText": "Optional notice text. Use {archiveUrl} for the website address."
+          "helpText": "Private website notice for this scope. Leave empty to inherit the saved scope or account text.",
+          "templateDialect": "conditional-values-v2",
+          "templateVariables": [
+            {
+              "token": "archiveUrl",
+              "label": "Archive URL",
+              "sampleValue": "https://archive.example.org"
+            },
+            {
+              "token": "scopeName",
+              "label": "Scope name",
+              "sampleValue": "Coastal community"
+            },
+            {
+              "token": "userDisplayName",
+              "label": "Member name",
+              "sampleValue": "Alex"
+            }
+          ],
+          "templateConditionVariables": [
+            {
+              "token": "archiveUrl",
+              "label": "Archive URL",
+              "sampleValue": "https://archive.example.org"
+            },
+            {
+              "token": "scopeName",
+              "label": "Scope name",
+              "sampleValue": "Coastal community"
+            },
+            {
+              "token": "userDisplayName",
+              "label": "Member name",
+              "sampleValue": "Alex"
+            }
+          ],
+          "templateActivation": "always",
+          "templateDefaultFragment": true,
+          "templateEmptyResult": "reject"
         },
         "dangerous": false,
         "sensitivity": {

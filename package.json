@@ -1,6 +1,6 @@
 {
   "name": "@wabs/plugin-chat-archive",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Control access to the website archive for this scope.",
   "license": "MIT",
   "private": true,
