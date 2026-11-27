@@ -9,7 +9,7 @@
   "description": "Controls website access to retained chats in each scope. Administrators choose whether /chatarchive offers a link to the selected chat and whether members receive a private website notice.",
   "kind": "managed_group",
   "version": "1.0.3",
-  "coreApiRange": "^0.3.28",
+  "coreApiRange": "^0.3.31",
   "entrypoint": "dist/index.js",
   "messageNamespace": "official.chat-archive",
   "descriptionKey": "official.chat-archive.description",
