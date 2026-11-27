@@ -8,7 +8,7 @@
   },
   "description": "Controls website access to retained chats in each scope. Administrators choose whether /chatarchive offers a link to the selected chat and whether members receive a private website notice.",
   "kind": "managed_group",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "coreApiRange": "^0.3.31",
   "entrypoint": "dist/index.js",
   "messageNamespace": "official.chat-archive",
@@ -43,6 +43,11 @@
       "pluginId": "official.send-group-history",
       "versionRange": ">=0.7.0",
       "description": "Lets Archive Courier include a verified link to read the delivered chat online."
+    },
+    {
+      "pluginId": "official.sticker-thief",
+      "versionRange": ">=0.9.9",
+      "description": "Lets members send retained stickers and sticker packs from the archive website to WhatsApp."
     }
   ],
   "requiredPermissions": [],
